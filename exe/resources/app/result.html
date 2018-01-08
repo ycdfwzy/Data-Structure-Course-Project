@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="common.css">
+        <link rel="stylesheet" href="result.css">
+        <link rel="stylesheet" href="node_modules/nprogress/nprogress.css">
+        <title>Archie - the First Search Engine</title>
+    </head>
+    <body>
+        <div id="result-page">
+            <div id="result-page-header">
+                <div class="small-logo">
+                    <a href="main.html"><span class="color0">A</span><span class="color1">R</span><span class="color2">C</span><span class="color3">H</span><span class="color5">I</span><span class="color6">E</span></a>
+                </div>
+                <form id="search-form" action="result.html" method="get">
+                    <input id="search-textarea" type="text" name="query">
+                </form>
+            </div>
+            <div id="result-page-content">
+                <div id="result-statistics">
+                    <span id="statistics-count">0</span> results (<span id="statistics-time">0</span> seconds)
+                </div>
+            </div>
+            <div id="footer">
+                <span class="copyleft">&copy;</span>2017 ycdfwzy. Powered by electron.
+            </div>
+        </div>
+        <script src="common.js"></script>
+        <script src="result.js"></script>
+    </body>
+</html>

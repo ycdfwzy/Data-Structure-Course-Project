@@ -1,0 +1,26 @@
+{
+  "name": "archie",
+  "version": "1.0.0",
+  "description": "My Data Structure Course Project in honor of the first searh engine!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packageWin": "electron-packager . archie --platform=win32 --arch=x64 --icon=Archie.ico --out=./dist --app-version=1.0.0 --overwrite"
+  },
+  "keywords": [
+    "Elctron"
+  ],
+  "author": "ycdfwzy",
+  "license": "ISC",
+  "dependencies": {
+    "electron-debug": "^1.1.0",
+    "ffi": "^2.2.0",
+    "jquery": "^3.1.1",
+    "nprogress": "^0.2.0",
+    "query-string": "^4.2.3"
+  },
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-packager": "^8.7.2"
+  }
+}
